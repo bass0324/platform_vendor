@@ -52,37 +52,28 @@ PRODUCT_COPY_FILES := \
     vendor/moto/shamu/proprietary/acdb.mbn:system/vendor/firmware/acdb.mbn:moto \
     vendor/moto/shamu/proprietary/atmel-a432-14061601-0102aa-shamu-p1.tdat:system/vendor/firmware/atmel-a432-14061601-0102aa-shamu-p1.tdat:moto \
     vendor/moto/shamu/proprietary/atmel-a432-14101503-0103aa-shamu.tdat:system/vendor/firmware/atmel-a432-14101503-0103aa-shamu.tdat:moto \
-	vendor/moto/shamu/proprietary/audio_effects.conf:system/vendor/etc/audio_effects.conf:moto \
-	vendor/moto/shamu/proprietary/cy8c20247_24lkxi.hex:system/vendor/firmware/cy8c20247_24lkxi.hex:moto \
-	vendor/moto/shamu/proprietary/left.boost.music.config:system/vendor/firmware/left.boost.music.config:moto \
     vendor/moto/shamu/proprietary/left.boost.music.eq:system/vendor/firmware/left.boost.music.eq:moto \
     vendor/moto/shamu/proprietary/left.boost_music_table.preset:system/vendor/firmware/left.boost_music_table.preset:moto \
     vendor/moto/shamu/proprietary/left.boost_n1b12.patch:system/vendor/firmware/left.boost_n1b12.patch:moto \
     vendor/moto/shamu/proprietary/left.boost_n1c2.patch:system/vendor/firmware/left.boost_n1c2.patch:moto \
-    vendor/moto/shamu/proprietary/left.boost.ringtone.config:system/vendor/firmware/left.boost.ringtone.config:moto \
-	vendor/moto/shamu/proprietary/left.boost.ringtone.eq:system/vendor/firmware/left.boost.ringtone.eq:moto \
+    vendor/moto/shamu/proprietary/left.boost.ringtone.eq:system/vendor/firmware/left.boost.ringtone.eq:moto \
     vendor/moto/shamu/proprietary/left.boost_ringtone_table.preset:system/vendor/firmware/left.boost_ringtone_table.preset:moto \
     vendor/moto/shamu/proprietary/left.boost.speaker:system/vendor/firmware/left.boost.speaker:moto \
     vendor/moto/shamu/proprietary/left.boost.voice.eq:system/vendor/firmware/left.boost.voice.eq:moto \
-	vendor/moto/shamu/proprietary/left.boost.voice.config:system/vendor/firmware/left.boost.voice.config:moto \
     vendor/moto/shamu/proprietary/left.boost_voice_table.preset:system/vendor/firmware/left.boost_voice_table.preset:moto \
     vendor/moto/shamu/proprietary/right.boost.music.eq:system/vendor/firmware/right.boost.music.eq:moto \
-	vendor/moto/shamu/proprietary/right.boost.music.config:system/vendor/firmware/right.boost.music.config:moto \
     vendor/moto/shamu/proprietary/right.boost_music_table.preset:system/vendor/firmware/right.boost_music_table.preset:moto \
     vendor/moto/shamu/proprietary/right.boost_n1b12.patch:system/vendor/firmware/right.boost_n1b12.patch:moto \
     vendor/moto/shamu/proprietary/right.boost_n1c2.patch:system/vendor/firmware/right.boost_n1c2.patch:moto \
-    vendor/moto/shamu/proprietary/right.boost.ringtone.config:system/vendor/firmware/right.boost.ringtone.config:moto \
-	vendor/moto/shamu/proprietary/right.boost.ringtone.eq:system/vendor/firmware/right.boost.ringtone.eq:moto \
+    vendor/moto/shamu/proprietary/right.boost.ringtone.eq:system/vendor/firmware/right.boost.ringtone.eq:moto \
     vendor/moto/shamu/proprietary/right.boost_ringtone_table.preset:system/vendor/firmware/right.boost_ringtone_table.preset:moto \
     vendor/moto/shamu/proprietary/right.boost.speaker:system/vendor/firmware/right.boost.speaker:moto \
-    vendor/moto/shamu/proprietary/right.boost.voice.config:system/vendor/firmware/right.boost.voice.config:moto \
-	vendor/moto/shamu/proprietary/right.boost.voice.eq:system/vendor/firmware/right.boost.voice.eq:moto \
+    vendor/moto/shamu/proprietary/right.boost.voice.eq:system/vendor/firmware/right.boost.voice.eq:moto \
     vendor/moto/shamu/proprietary/right.boost_voice_table.preset:system/vendor/firmware/right.boost_voice_table.preset:moto \
     vendor/moto/shamu/proprietary/VRGain.bin:system/vendor/firmware/VRGain.bin:moto \
     vendor/moto/shamu/proprietary/libmdmcutback.so:system/vendor/lib/libmdmcutback.so:moto \
     vendor/moto/shamu/proprietary/libmotext_inf.so:system/vendor/lib/libmotext_inf.so:moto \
     vendor/moto/shamu/proprietary/libqmimotext.so:system/vendor/lib/libqmimotext.so:moto \
-	vendor/moto/shamu/proprietary/libchromatix_imx214_cpp_snap.so:system/vendor/lib/libchromatix_imx214_cpp_snap.so:moto \
     vendor/moto/shamu/proprietary/lts_en_us_9_5_2b.raw:system/vendor/moto/audiomonitor/sensory/lts_en_us_9_5_2b.raw:moto \
     vendor/moto/shamu/proprietary/nn_de_mfcc_16k_15_big_250_v3_4.raw:system/vendor/moto/audiomonitor/sensory/nn_de_mfcc_16k_15_big_250_v3_4.raw:moto \
     vendor/moto/shamu/proprietary/nn_en_uk_mfcc_16k_15_big_250_v2_2.raw:system/vendor/moto/audiomonitor/sensory/nn_en_uk_mfcc_16k_15_big_250_v2_2.raw:moto \
@@ -125,16 +116,4 @@ PRODUCT_COPY_FILES := \
 	vendor/moto/shamu/proprietary/libwvm.so:system/vendor/lib/libwvm.so:moto \
 	vendor/moto/shamu/proprietary/libWVphoneAPI.so:system/vendor/lib/libWVphoneAPI.so:moto \
 	vendor/moto/shamu/proprietary/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so:moto \
-	vendor/moto/shamu/proprietary/LMspeed_508.emd:system/vendor/moto/media/LMspeed_508.emd:moto \
-	vendor/moto/shamu/proprietary/PFFprec_600.emd:system/vendor/moto/media/PFFprec_600.emd:moto \
-	vendor/moto/shamu/proprietary/face.face.y0-y0-71-N-tree_7-wmd.bin:system/vendor/moto/pittpatt/models/recognition/face.face.y0-y0-71-N-tree_7-wmd.bin:moto \
-	vendor/moto/shamu/proprietary/landmark_group_meta_data.bin:system/vendor/moto/pittpatt/models/detection/multi_pose_face_landmark_detectors.8/landmark_group_meta_data.bin:moto \
-	vendor/moto/shamu/proprietary/left_eye-y0-yi45-p0-pi45-r0-ri20.lg_32-tree7-wmd.bin:system/vendor/moto/pittpatt/models/detection/multi_pose_face_landmark_detectors.8/left_eye-y0-yi45-p0-pi45-r0-ri20.lg_32-tree7-wmd.bin:moto \
-	vendor/moto/shamu/proprietary/nose_base-y0-yi45-p0-pi45-r0-ri20.lg_32-tree7-wmd.bin:system/vendor/moto/pittpatt/models/detection/multi_pose_face_landmark_detectors.8/nose_base-y0-yi45-p0-pi45-r0-ri20.lg_32-tree7-wmd.bin:moto \
-	vendor/moto/shamu/proprietary/right_eye-y0-yi45-p0-pi45-r0-ri20.lg_32-3-tree7-wmd.bin:system/vendor/moto/pittpatt/models/detection/multi_pose_face_landmark_detectors.8/right_eye-y0-yi45-p0-pi45-r0-ri20.lg_32-3-tree7-wmd.bin:moto \
-	vendor/moto/shamu/proprietary/head-y0-yi45-p0-pi45-r0-ri30.4a-v24-tree7-2-wmd.bin:system/vendor/moto/pittpatt/models/detection/yaw_roll_face_detectors.7.1/head-y0-yi45-p0-pi45-r0-ri30.4a-v24-tree7-2-wmd.bin:moto \
-	vendor/moto/shamu/proprietary/head-y0-yi45-p0-pi45-rn30-ri30.5-v24-tree7-2-wmd.bin:system/vendor/moto/pittpatt/models/detection/yaw_roll_face_detectors.7.1/head-y0-yi45-p0-pi45-rn30-ri30.5-v24-tree7-2-wmd.bin:moto \
-	vendor/moto/shamu/proprietary/head-y0-yi45-p0-pi45-rp30-ri30.5-v24-tree7-2-wmd.bin:system/vendor/moto/pittpatt/models/detection/yaw_roll_face_detectors.7.1/head-y0-yi45-p0-pi45-rp30-ri30.5-v24-tree7-2-wmd.bin:moto \
-	vendor/moto/shamu/proprietary/pose-r.8.1.bin:system/vendor/moto/pittpatt/models/detection/yaw_roll_face_detectors.7.1/pose-r.8.1.bin:moto \
-	vendor/moto/shamu/proprietary/pose-y-r.8.1.bin:system/vendor/moto/pittpatt/models/detection/yaw_roll_face_detectors.7.1/pose-y-r.8.1.bin:moto \
 
